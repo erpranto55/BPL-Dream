@@ -6,7 +6,7 @@ import { Menu, Pointer } from 'lucide-react';
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className="navbar bg-base-100 shadow-sm ">
+        <div className="navbar bg-base-100 container mx-auto ">
             <div className='md:hidden relative'>
                 <button onClick={() => setOpen(!open)}>
                     <Menu />
