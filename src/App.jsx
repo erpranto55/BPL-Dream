@@ -1,11 +1,14 @@
 import './App.css'
-import NavBar from './components/homepage/NavBar/NavBar'
+import Banner from './components/HomePage/Banner/Banner'
+import NavBar from './components/NavBar/NavBar'
+
 
 function App() {
 
   return (
     <>
-      <NavBar></NavBar>
+    <NavBar></NavBar>
+    <Banner></Banner>
     </>
   )
 }

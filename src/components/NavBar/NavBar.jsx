@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import dollarImage from "../../../assets/Currency.png"
-import { Menu } from 'lucide-react';
+import dollarImage from "../../assets/Currency.png"
+import logo from '../../assets/logo.png'
+import { Menu, Pointer } from 'lucide-react';
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
@@ -23,7 +24,7 @@ const NavBar = () => {
                 }
             </div>
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">BPL Dream 11</a>
+                <img src={logo} alt="" className='max-h-20 pl-5'/>
             </div>
 
             <div className='flex gap-10'>
