@@ -3,7 +3,7 @@ import dollarImage from "../../assets/Currency.png"
 import logo from '../../assets/logo.png'
 import { Menu, Pointer } from 'lucide-react';
 
-const NavBar = () => {
+const NavBar = ({ coin }) => {
     const [open, setOpen] = useState(false);
     return (
         <div className="navbar bg-base-100 container mx-auto ">
@@ -24,7 +24,7 @@ const NavBar = () => {
                 }
             </div>
             <div className="flex-1">
-                <img src={logo} alt="" className='max-h-20 pl-5'/>
+                <img src={logo} alt="" className='max-h-20 pl-5' />
             </div>
 
             <div className='flex gap-10'>
@@ -35,7 +35,7 @@ const NavBar = () => {
                     <li><a href="">Schedules</a></li>
                 </ul>
                 <button className="flex-no flex justify-between items-center gap-2 font-bold text-xl">
-                    0 Coins
+                    {coin} Coins
                     <img src={dollarImage} alt="" />
                 </button>
             </div>
