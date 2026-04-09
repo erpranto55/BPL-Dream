@@ -1,58 +1,58 @@
-#  BPL Dream 11
+# BPL Dream 11
 
 A modern React-based web application where users can select their favorite cricket players, manage coins, and build a dream team experience inspired by fantasy leagues.
 
 ---
 
-##  Live Demo
+## Live Demo
 
-(Add your deployed link here)
-
----
-
-##  Features
-
--  Select and manage players
--  Coin system (earn & spend coins)
--  Smart player selection logic
--  Remove selected players
--  Fully responsive design
--  Clean UI based on Figma
+[BPL Dream 11](https://bpldream11select.netlify.app/)
 
 ---
 
-##  Tech Stack
+## Features
 
--  React.js
--  Tailwind CSS
--  JavaScript (ES6+)
+- Select and manage players
+- Coin system (earn & spend coins)
+- Smart player selection logic
+- Remove selected players
+- Fully responsive design
+- Clean UI based on Figma
+
+---
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
 - Fetch API
 
 ---
 
-##  Project Structure
+## Project Structure
 
-src/
-│
-├── components/
-│ ├── HomePage/
-│ │ ├── Banner/
-│ │ ├── Players/
-│ │
-│ ├── NavBar/
-│ ├── Footer/
-│
-├── assets/
-├── App.jsx
-├── main.jsx
+src/<br>
+│<br>
+├── components/<br>
+│ ├── HomePage/<br>
+│ │ ├── Banner/<br>
+│ │ ├── Players/<br>
+│ │<br>
+│ ├── NavBar/<br>
+│ ├── Footer/<br>
+│<br>
+├── assets/<br>
+├── App.jsx<br>
+├── main.jsx<br>
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
-git clone https://github.com/erpranto55/bpl-dream-11.git
+git clone https://github.com/erpranto55/BPL-Dream
 
 ### 2. Go to project folder
 
@@ -66,7 +66,7 @@ npm install
 
 ---
 
-##  How It Works
+## How It Works
 
 - Users start with a certain number of coins
 - Players can be selected using coins
@@ -76,7 +76,7 @@ npm install
 
 ---
 
-##  UI Design
+## UI Design
 
 - Inspired by Figma layout
 - Gradient buttons and cards
@@ -85,23 +85,23 @@ npm install
 
 ---
 
-##  Known Issues
+## Known Issues
 
 - Avoid invalid Tailwind classes like `mt-70`
 - Ensure correct JSON path (`/data.json`)
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
--  Authentication system
--  Save team (local storage / backend)
--  Player filtering & stats
--  Real-time API integration
+- Authentication system
+- Save team (local storage / backend)
+- Player filtering & stats
+- Real-time API integration
 
 ---
 
-##  Author
+## Author
 
 **ER Pranto**
 
