@@ -1,8 +1,9 @@
 import { Suspense, useState } from 'react';
 import './App.css'
 import Banner from './components/HomePage/Banner/Banner'
-import Players from './components/HomePage/Players/Players';
+import Players from './components/HomePage/Players/Players'
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
 
 const fetchPlayer = async () => {
   const res = await fetch("/data.json");
@@ -21,6 +22,8 @@ function App() {
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
         <Players playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
+
+      <Footer></Footer>
     </>
   )
 }

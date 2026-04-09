@@ -2,6 +2,7 @@ import React from 'react';
 import { FaUser } from 'react-icons/fa';
 import { MdDelete } from 'react-icons/md';
 import SelectedCard from '../../../ui/SelectedCard';
+import { toast } from 'react-toastify';
 
 const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
 
@@ -9,6 +10,7 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin })
         const filteredPlayers = selectedPlayers.filter(selectedPlayer => selectedPlayer.player_name != player.player_name);
         setSelectedPlayers(filteredPlayers);
         setCoin(coin + player.price);
+        toast.info(`${player.player_name} is Removed.`);
     }
 
     return (

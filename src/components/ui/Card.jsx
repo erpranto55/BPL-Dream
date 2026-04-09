@@ -8,7 +8,7 @@ const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) =>
 
     const handleChoosePlayer = () => {
         if (coin < player.price) {
-            toast.warning('Not Enough Coin! Claim The Free Credit');
+            toast.warn('Not Enough Coin! Claim The Free Credit');
             return;
         }
 
