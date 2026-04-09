@@ -10,7 +10,7 @@ const Banner = ({ setCoin }) => {
     const claimCredit = () => {
         setCoin(500000);
         setFreeCredit(true);
-        { !freeCredit ? toast("Free Credit Claimed") : toast("Free Credit Already Claimed") }
+        { !freeCredit ? toast.success("Free Credit Claimed") : toast.warning("Free Credit Already Claimed") }
         ;
     }
 

@@ -8,11 +8,11 @@ const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) =>
 
     const handleChoosePlayer = () => {
         if (coin < player.price) {
-            toast('Not enough coin! Claim Free Credit Now');
+            toast.warning('Not Enough Coin! Claim The Free Credit');
             return;
         }
 
-        toast(`${player.player_name} is Selected`)
+        toast.success(`${player.player_name} is Selected`)
         setIsSelected(true);
         setCoin(coin - player.price);
         setSelectedPlayers([...selectedPlayers, player]);
