@@ -1,18 +1,118 @@
-# React + Vite
+#  BPL Dream 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based web application where users can select their favorite cricket players, manage coins, and build a dream team experience inspired by fantasy leagues.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Live Demo
 
-## React Compiler
+(Add your deployed link here)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+##  Features
 
-## Expanding the ESLint configuration
+-  Select and manage players
+-  Coin system (earn & spend coins)
+-  Smart player selection logic
+-  Remove selected players
+-  Fully responsive design
+-  Clean UI based on Figma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+-  React.js
+-  Tailwind CSS
+-  JavaScript (ES6+)
+- Fetch API
+
+---
+
+##  Project Structure
+
+src/
+│
+├── components/
+│ ├── HomePage/
+│ │ ├── Banner/
+│ │ ├── Players/
+│ │
+│ ├── NavBar/
+│ ├── Footer/
+│
+├── assets/
+├── App.jsx
+├── main.jsx
+
+---
+
+##  Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/erpranto55/bpl-dream-11.git
+
+### 2. Go to project folder
+
+cd bpl-dream-11
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Run the project
+
+---
+
+##  How It Works
+
+- Users start with a certain number of coins
+- Players can be selected using coins
+- Selected players are displayed separately
+- Users can remove players anytime
+- UI updates dynamically using React state
+
+---
+
+##  UI Design
+
+- Inspired by Figma layout
+- Gradient buttons and cards
+- Floating newsletter banner
+- Clean footer with subscription
+
+---
+
+##  Known Issues
+
+- Avoid invalid Tailwind classes like `mt-70`
+- Ensure correct JSON path (`/data.json`)
+
+---
+
+##  Future Improvements
+
+-  Authentication system
+-  Save team (local storage / backend)
+-  Player filtering & stats
+-  Real-time API integration
+
+---
+
+##  Author
+
+**ER Pranto**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
